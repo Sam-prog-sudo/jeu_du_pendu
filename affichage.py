@@ -1,94 +1,144 @@
+art = """
+    _                     _                                   _        
+   (_)  ___   _  _     __| |  _  _     _ __   ___   _ _    __| |  _  _ 
+   | | / -_) | || |   / _` | | || |   | '_ \ / -_) | ' \  / _` | | || |
+  _/ | \___|  \_,_|   \__,_|  \_,_|   | .__/ \___| |_||_| \__,_|  \_,_|
+ |__/                                 |_|                              
+ 
+"""
 
-def tour1():
-    print("\n ##### Tour n°1 ##### ")
+affichage_start = """
+Bonjour et bienvenue dans ce jeu du pendu.
 
-    print("")
-    print("")
-    print("")
-    print("")
-    print("")
-    print("")
-    print("")
-    
-    
-def tour2():
-    print("\n ##### Tour n°2 ##### ")
+Le but du jeu est simple: trouver un mot en devinant
+quelles sont les lettres qui le compose.
 
-    print("")
-    print(" |")
-    print(" |")
-    print(" |")
-    print(" |")
-    print(" |")
-    print("_|____________")
-    
-    
-def tour3():
-    print("\n ##### Tour n°3 ##### ")
+Etes-vous prêt.e ?"""
 
-    print("_____________")
-    print(" | /")
-    print(" |/")
-    print(" |")
-    print(" |")
-    print(" |")
-    print("_|____________")
-    
-    
-def tour4():
-    print("\n ##### Tour n°4 ##### ")
+affichage_end = """
+  ___   ___   _  _ 
+ | __| |_ _| | \| |
+ | _|   | |  | .` |
+ |_|   |___| |_|\_|
+                   
+"""
 
-    print("_____________")
-    print(" | /       |")
-    print(" |/")
-    print(" |")
-    print(" |")
-    print(" |")
-    print("_|____________")
-    
-    
-def tour5():
-    print("\n ##### Tour n°5 ##### ")
+separateur ="""
+#--------------------------------------------------------------#
+"""
 
-    print("_____________")
-    print(" | /       |")
-    print(" |/        O")
-    print(" |")
-    print(" |")
-    print(" |")
-    print("_|____________")
-    
-    
-def tour6():
-    print("\n ##### Tour n°6 ##### ")
 
-    print("_____________")
-    print(" | /       |")
-    print(" |/        O")
-    print(" |         |")
-    print(" |")
-    print(" |")
-    print("_|____________")
+x0 = """
+Jusqu'ici, tout va bien ...
+
+
+
+
+
+
+_____________"""
     
     
-def tour7():
-    print("\n ##### Tour n°7 ##### ")
 
-    print("_____________")
-    print(" | /       |")
-    print(" |/        O")
-    print(" |        -|-")
-    print(" |")
-    print(" |")
-    print("_|____________")
-def tour8():
-    print("\n ##### Tour n°8 ##### ")
+x1 = """
+ça ne présage rien de bon ...
 
-    print("_____________")
-    print(" | /       |")
-    print(" |/        O")
-    print(" |        -|-")
-    print(" |        /'\\")
-    print(" |")
-    print("_|____________")
-    print("\nTrop tard, je suis pendu !\n")
+ |
+ |
+ |
+ |
+ |
+_|____________\n"""
+    
+
+x2 = """
+oh! Un i grec ...
+
+ | /
+ |/
+ |
+ |
+ |
+_|____________\n"""
+
+
+
+x3 = """
+ça pue la mort ...
+_____________
+ | /
+ |/
+ |
+ |
+ |
+_|____________\n"""
+    
+    
+
+x4 = """
+oh une corde !
+_____________
+ | /       |
+ |/
+ |
+ |
+ |
+_|____________\n"""
+    
+    
+
+x5 = """
+aïe ...
+_____________
+ | /       |
+ |/        O
+ |
+ |
+ |
+_|____________\n"""
+    
+    
+
+x6 = """
+j'ai mal ...
+_____________
+ | /       |
+ |/        O
+ |         |
+ |
+ |
+_|____________\n"""
+    
+
+x7 = """
+pas la moustache ...
+_____________
+ | /       |
+ |/        O
+ |        -|-
+ |
+ |
+_|____________\n"""
+
+x8 = """
+Emballé, c'est pendu !
+_____________
+ | /       |
+ |/        O
+ |        -|-
+ |        /'\\
+ |
+_|____________\n"""
+
+
+afficher_tours = [x0,x1,x2,x3,x4,x5,x6,x7]
+
+credit="""
+Voici toute les références film/musique cachees dans le code.
+
+pas la moustache:            https://youtu.be/01ikSfLBYZ0?t=88
+Salvatore Adamo - le pendu:  https://youtu.be/9yd5wqfcFsY
+The Doors - The End:         https://youtu.be/BXqPNlng6uI
+Christophe - Les Mots Bleus: https://youtu.be/VJPAtV3D-Dg
+Loup y es tu:                https://youtu.be/AjYuK9cB8X8
+"""
