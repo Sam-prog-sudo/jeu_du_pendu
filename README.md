@@ -1,6 +1,7 @@
 # Jeu_du_pendu
   
 Jeu du pendu, sur console, codé en python.  
+![Alt text](/.SCREENSHOT/screen.png?raw=true "screenshot")
 ## Outils utilisés:  
 Pickle/unpickle  
 Importation de fichier  
