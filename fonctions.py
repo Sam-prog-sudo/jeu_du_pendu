@@ -66,7 +66,7 @@ def user_existes_tu (scores): #comique de repetition
         return user
     else:
         print("Veuillez saisir un identifiant correct.")
-        return user_existes_tu()
+        return user_existes_tu(scores)
 
 def relance (continuer):
     quitter = input("Souhaitez-vous délaisser le pendu à son triste sort (o/n) ? ")
