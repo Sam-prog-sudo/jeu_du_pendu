@@ -7,10 +7,11 @@ continuer = True
 print(art)
 print(affichage_start)
 
-while continuer==True:
-    main()
-    print (separateur)
-    relance (continuer)
+if __name__ == "__main__":
+    while continuer==True:
+        main()
+        print (separateur)
+        relance (continuer)
 
 
-print(affichage_end)
+    print(affichage_end)
